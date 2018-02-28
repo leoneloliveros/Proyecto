@@ -1,0 +1,43 @@
+body {
+	
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	margin: 0px;
+}
+
+img {
+	
+	width: 100%;
+	height: 100%;
+}
+.contenedor {
+	position: fixed;
+	top: 150px;
+	left: 50px;
+	width: 600px;	
+	background-color: rgb(48,48,48,0.7);
+	border-radius: 10px;
+	padding: 20px;
+	margin-right: 50px;
+
+}
+
+button {
+	background-color: #DB3030;
+	border: 0px;
+	color: white;
+}
+
+@media screen and (max-width: 668px) {
+	img {
+		
+		width: 668px;
+		height: 445px;
+	}
+
+.contenedor {	
+	width: auto;
+	}
+
+}
+
