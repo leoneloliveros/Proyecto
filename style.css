@@ -1,14 +1,10 @@
 body {
-
-	font-family: 'Open Sans', sans-serif;
+	background-image: url("https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	font-family: 'Roboto', sans-serif;
 	color: white;
 	margin: 0px;
-}
-
-img {
-
-	width: 100%;
-	height: 100%;
 }
 .contenedor {
 	position: fixed;
@@ -28,10 +24,8 @@ button {
 }
 
 @media screen and (max-width: 668px) {
-	img {
-
-		width: 668px;
-		height: 445px;
+	body {
+		background-size: 668px 445px;
 	}
 
 .contenedor {
